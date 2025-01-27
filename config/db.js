@@ -2,8 +2,8 @@ const mysql = require('mysql2');
 
 const db = mysql.createConnection({
     host: 'localhost',
-    user: 'root',
-    password: 'new_password',
+    user: '',
+    password: '',
     database: 'tree_app_db'
 });
 
